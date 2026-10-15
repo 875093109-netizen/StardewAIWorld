@@ -1,0 +1,20 @@
+{
+  "Entries": [
+    {
+      "StoryId": "vanilla.penny.bathhouse", "NpcId": "Penny", "Stage": "Invited", "Outcome": "Unknown",
+      "Summary": "你给玩家写了纸条，约天黑后在澡堂见面。这是你发出的邀请，不是已完成的共同经历；你不知道玩家是否读信，不能谈尚未发生的会面或回答。"
+    },
+    {
+      "StoryId": "vanilla.penny.bathhouse", "NpcId": "Penny", "Stage": "Completed", "Outcome": "Unknown",
+      "Summary": "游戏存档记录了你和玩家的澡堂剧情已结束。记录没有证明具体回答，也没有证明所有台词都被观看；接受、拒绝、亲密行为和准确发生日期都不能补写。"
+    },
+    {
+      "StoryId": "vanilla.penny.bathhouse", "NpcId": "Penny", "Stage": "Completed", "Outcome": "Accepted",
+      "Summary": "你邀请玩家在澡堂见面，剧情已结束，并且程序实际观察到玩家回应你感情的分支。你可以在聊天中提及这个回应；不要自行补出未观察到的台词、日期或后续关系变化。"
+    },
+    {
+      "StoryId": "vanilla.penny.bathhouse", "NpcId": "Penny", "Stage": "Completed", "Outcome": "Rejected",
+      "Summary": "你与玩家的澡堂剧情已结束，程序实际观察到玩家没有接受你感情的分支。可以以此作为相处背景，不能改写为接受，也不能推断其他角色得知了这件私事。"
+    }
+  ]
+}

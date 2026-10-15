@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>AIWorld.Core</RootNamespace>
+    <AssemblyName>AIWorld.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Chat\Personas\*.personas.json" />
+    <EmbeddedResource Include="Localization\*.json" />
+    <EmbeddedResource Include="Behaviors\penny-signatures.json" />
+    <EmbeddedResource Include="Chat\Stories\story-archive.json" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><IsPackable>false</IsPackable></PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.6.6" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.6" />
+    <ProjectReference Include="../../src/AIWorld.Core/AIWorld.Core.csproj" />
+    <Compile Include="../../src/AIWorld.Demo/DialogueUiBridge.cs" Link="Production/DialogueUiBridge.cs" />
+    <Compile Include="../../src/AIWorld.Demo/SocialValleyDialogueUi.cs" Link="Production/SocialValleyDialogueUi.cs" />
+    <Compile Include="../../src/AIWorld.Demo/ModConfig.cs" Link="Production/ModConfig.cs" />
+  </ItemGroup>
+</Project>

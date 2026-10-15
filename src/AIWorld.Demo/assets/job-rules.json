@@ -1,0 +1,13 @@
+{
+  "Penny.LibraryLesson": {
+    "Npc": "Penny",
+    "Location": "ArchaeologyHouse",
+    "X": 17,
+    "Y": 9,
+    "Behavior": "penny_read",
+    "ActivityKey": "job.teaching",
+    "Participants": ["Jas", "Vincent", "Leo"],
+    "Radius": 5,
+    "MinimumPresent": 1
+  }
+}

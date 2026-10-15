@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <EnableHarmony>false</EnableHarmony>
+    <EnableModDeploy>false</EnableModDeploy>
+    <RootNamespace>AIWorld.Demo</RootNamespace>
+    <AssemblyName>AIWorld.Demo</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AIWorld.Core\AIWorld.Core.csproj" />
+    <ProjectReference Include="..\AIWorld.Adapters\AIWorld.Adapters.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="manifest.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="assets\schedule-activities.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="assets\job-rules.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\AIWorld.Core\Chat\Stories\story-archive.json" Link="assets\story-archive.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

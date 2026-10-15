@@ -1,0 +1,9 @@
+{
+  "Name": "AIWorld Demo",
+  "Author": "AIWorld",
+  "Version": "0.9.0",
+  "Description": "AI NPC conversation, travel, appointments and memories, with optional built-in SVE character personas.",
+  "UniqueID": "AIWorld.Demo",
+  "EntryDll": "AIWorld.Demo.dll",
+  "MinimumApiVersion": "4.0.0"
+}

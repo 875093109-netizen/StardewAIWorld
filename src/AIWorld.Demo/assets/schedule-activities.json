@@ -1,0 +1,15 @@
+{
+  "penny_read": "i18n:job.reading",
+  "penny_dishes": "i18n:job.dishes",
+  "penny_sleep": "i18n:job.sleep",
+  "penny_sit_down": "i18n:job.sitting",
+  "penny_wave_left": "i18n:job.wave",
+  "Sophia_Read": "i18n:job.manga",
+  "Sophia_Sleep": "i18n:job.sleep",
+  "Sophia_Farm1": "i18n:job.vineyard",
+  "Sophia_Farm2": "i18n:job.vineyard",
+  "Sophia_Inspect_Keg_Right": "i18n:job.keg",
+  "Sophia_Inspect_Keg_Down": "i18n:job.keg",
+  "Sophia_Phone": "i18n:job.phone",
+  "Sophia_Stretch_After_Work": "i18n:job.stretch"
+}

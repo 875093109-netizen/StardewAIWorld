@@ -1,0 +1,31 @@
+# Build and editor state
+**/bin/
+**/obj/
+**/TestResults/
+.vs/
+*.user
+.dotnet/
+NuGet/
+Microsoft/
+.idea/
+# Local credentials and player data
+.env
+*.env
+config.json
+config.local.json
+talk-history*
+talk-reports/
+*.log
+*.trx
+# Private development/runtime inputs
+.claude/
+.codex/
+.mcp.json
+.codepilot-uploads/
+upstream/
+smapi-src/
+test-env/
+backups/
+artifacts/
+decompiled/
+work/
